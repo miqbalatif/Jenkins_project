@@ -122,6 +122,10 @@ usermod -aG docker jenkins
 usermod -aG docker ubuntu
 systemctl restart docker
 ```
+Check that docker is working
+```
+docker run hello-world
+```
 
 Once you are done with the above steps, it is better to restart Jenkins.
 
